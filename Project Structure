@@ -1,0 +1,26 @@
+BigCommpanyAnalyzer/
+  |
+  |--BigCompanyAnalyzer.sln
+  |
+  |-- src /
+  |   |-- BigCompanyAnalyzer.csproj
+  |      |--Models/
+  |        |- Employee.cs
+        |-- Service/
+  |       |- EmployeeParser.cs
+  |       |- OrganizationService.cs
+  |       | -ReportService.cs
+       | --Data/
+  |       |- Sample_employees.csv
+       |-- Program.cs
+  |    |--Utils/
+  |      |- CsvReader.cs
+  |
+  |--- tests/
+          | -  BigCompanyAnalyzer.Tests/
+               | -BigCompanyAnalyzer.Tests.csproj
+               | -OraganizationServiceTests.cs
+
+
+
+       
